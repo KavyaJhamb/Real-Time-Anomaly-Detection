@@ -39,7 +39,7 @@ Synthetic anomalies were injected into the test set for robust performance evalu
 
 ⚙️ Installation & Usage
 1. Clone the Repository
-git clone https://github.com/your-username/real-time-anomaly-detection.git
+git clone https://github.com/KavyaJhamb/Real-Time-Anomaly-Detection
 cd real-time-anomaly-detection
 2. Install Dependencies
 pip install -r requirements.txt

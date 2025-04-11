@@ -1,6 +1,7 @@
 # Real-Time Anomaly Detection in IoT-Enabled Smart Grids: A Comparative Study of Autoencoders and GANs
 
 A Comparative Study of Autoencoders and GANs
+
 📌 Overview
 
 This repository contains the implementation of Autoencoder and Generative Adversarial Network (GAN) models for real-time anomaly detection in IoT-enabled smart grids. The primary goal is to identify anomalies such as cyberattacks, equipment malfunctions, and operational inefficiencies by analyzing reconstruction errors.
@@ -11,10 +12,12 @@ This study provides a comparative analysis of both models based on accuracy, sca
 Detects anomalies based on reconstruction error.
 Best suited for identifying operational anomalies like equipment faults or overloads.
 Lightweight and computationally efficient with stable training dynamics.
+
 🔹 GAN Model
 Learns the distribution of normal behavior through adversarial training.
 Excels in detecting contextual anomalies (e.g., due to environmental or market shifts).
 Offers higher precision but is computationally more intensive.
+
 🔹 Hybrid Framework (Proposed)
 Leverages the high recall of Autoencoders and the high precision of GANs.
 Implements ensemble detection and cascaded thresholding to optimize performance.

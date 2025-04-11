@@ -24,12 +24,14 @@ Leverages the high recall of Autoencoders and the high precision of GANs.
 Implements ensemble detection and cascaded thresholding to optimize performance.
 
 🧠 Key Contributions
+
 In-depth comparison of Autoencoder and GAN models for anomaly detection in smart grids.
 Feature-level error attribution analysis to trace the root cause of anomalies.
 Evaluation using key metrics: Precision, Recall, F1 Score, and ROC-AUC.
 Proposal of a hybrid detection framework combining both model strengths.
 
 📊 Dataset Details
+
 The dataset originates from IoT sensors in a simulated smart grid environment.
 Includes 50,000+ timestamped entries across 10 features like voltage, current, and humidity.
 Due to confidentiality agreements, the original dataset is not publicly available.
